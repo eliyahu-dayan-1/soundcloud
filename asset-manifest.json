@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/soundcloud/static/css/main.026c06ae.chunk.css",
+    "main.js": "/soundcloud/static/js/main.85a2c431.chunk.js",
+    "main.js.map": "/soundcloud/static/js/main.85a2c431.chunk.js.map",
+    "runtime-main.js": "/soundcloud/static/js/runtime-main.337f6e27.js",
+    "runtime-main.js.map": "/soundcloud/static/js/runtime-main.337f6e27.js.map",
+    "static/js/2.3cf36f04.chunk.js": "/soundcloud/static/js/2.3cf36f04.chunk.js",
+    "static/js/2.3cf36f04.chunk.js.map": "/soundcloud/static/js/2.3cf36f04.chunk.js.map",
+    "index.html": "/soundcloud/index.html",
+    "precache-manifest.b02e76f76be4a54a50eb873733db3176.js": "/soundcloud/precache-manifest.b02e76f76be4a54a50eb873733db3176.js",
+    "service-worker.js": "/soundcloud/service-worker.js",
+    "static/css/main.026c06ae.chunk.css.map": "/soundcloud/static/css/main.026c06ae.chunk.css.map",
+    "static/js/2.3cf36f04.chunk.js.LICENSE.txt": "/soundcloud/static/js/2.3cf36f04.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/soundcloud/static/media/tile.8ae731c0.svg",
+    "static/media/equlizer.jpg": "/soundcloud/static/media/equlizer.ec150bce.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.337f6e27.js",
+    "static/js/2.3cf36f04.chunk.js",
+    "static/css/main.026c06ae.chunk.css",
+    "static/js/main.85a2c431.chunk.js"
+  ]
+}
