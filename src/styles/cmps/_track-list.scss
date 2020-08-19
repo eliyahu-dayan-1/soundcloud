@@ -1,0 +1,120 @@
+.tracks-list,
+.tracks-tile {
+    padding-right: 20px;
+    padding-right: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 400px;
+
+    /* width */
+    ::-webkit-scrollbar,
+    &::-webkit-scrollbar {
+        width: 3px;
+        height: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track,
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb,
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover,
+    &::-webkit-scrollbar-thumb:hover {
+        background: #777;
+    }
+
+    > * {
+        width: 90%;
+        &.fade-out {
+            transform: translateX(200%);
+            transition: 3s;
+        }
+    }
+}
+
+.tracks-list {
+    .track-row {
+        background-color: lighten($color: $clr8, $amount: 1);
+        padding: 15px 10px;
+        box-shadow: 0px 0px 5px -2px grey;
+
+        .cut-text {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 90%;
+            height: 1.2em;
+            white-space: nowrap;
+        }
+
+        .properties {
+            > * {
+                &:not(:last-child) {
+                    margin-bottom: 5px;
+                }
+
+                > *:not(:last-child) {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+        > *:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.tracks-tile {
+    .track-tile {
+        border: 1px solid darken($color: $clr7, $amount: 10);
+        box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+
+        &:not(:last-child) {
+            margin-bottom: 25px;
+        }
+
+        > *:not(img) {
+            margin-left: 10px;
+        }
+
+        > * {
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .cut-text {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 90%;
+            height: 1.2em;
+            white-space: nowrap;
+        }
+
+        .properties {
+            flex-direction: row;
+            > * {
+                &:not(:last-child) {
+                    margin-right: 5px;
+                }
+
+                > *:not(:last-child) {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

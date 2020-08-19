@@ -1,0 +1,16 @@
+.result-nav {
+    margin-top: 20px;
+    width: 100%;
+
+    .pagination {
+        > *:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+
+    .list-mode {
+        > *:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+}

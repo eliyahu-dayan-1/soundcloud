@@ -1,0 +1,20 @@
+.search-container {
+    grid-column: 1;
+    > * {
+        width: 90%;
+
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
